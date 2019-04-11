@@ -1,25 +1,27 @@
-# hub.docker.com/tiredofit/alpine
-
-[![Build Status](https://img.shields.io/docker/build/tiredofit/alpine.svg)](https://hub.docker.com/r/tiredofit/alpine)
-[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/alpine.svg)](https://hub.docker.com/r/tiredofit/alpine)
-[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/alpine.svg)](https://hub.docker.com/r/tiredofit/alpine)
-[![Docker 
-Layers](https://images.microbadger.com/badges/image/tiredofit/alpine.svg)](https://microbadger.com/images/tiredofit/alpine)
+# hub.docker.com/openemail/alpine
 
 # Introduction
 
 Dockerfile to build an [alpine](https://www.alpinelinux.org/) container image.
 
-* Currently tracking 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9 and edge
+* Currently tracking 3.9
 * [s6 overlay](https://github.com/just-containers/s6-overlay) enabled for PID 1 Init capabilities
 * [zabbix-agent](https://zabbix.org) based on 4.0.x compiled for individual container monitoring.
 * Cron installed along with other tools (bash,curl, less, logrotate, nano, vim) for easier management.
 * MSMTP enabled to send mail from container to external SMTP server.
 * Ability to update User ID and Group ID Permissions for Development Purposes dyanmically.
 
-# Authors
+# Original Authors
 
 - [Dave Conroy](dave at tiredofit dot ca) [https://github.com/tiredofit]
+
+# Authors
+
+- [Chinthaka Deshapriya](https://www.linkedin.com/in/chinthakadeshapriya/)
+
+# Contributors
+ 
+ - [Amila Kothalawala](https://www.linkedin.com/in/amila-m-kothalawala-87357152/)
 
 # Table of Contents
 
