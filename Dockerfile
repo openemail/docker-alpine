@@ -41,6 +41,7 @@ RUN set -x && \
          nano \
          sudo \
          tzdata \
+         net-tools \
          vim \
          zabbix-agent \
          && \
