@@ -1,5 +1,5 @@
-FROM alpine:3.9
-LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
+FROM alpine:3.8
+LABEL maintainer="Chinthaka Deshapriya (chinthaka@cybergate.lk)"
 
 ### Set Defaults
 ENV DEBUG_MODE=FALSE \
