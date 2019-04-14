@@ -13,7 +13,7 @@ Dockerfile to build an [alpine](https://www.alpinelinux.org/) container image.
 
 # Original Authors
 
-- [Dave Conroy](dave at tiredofit dot ca) [https://github.com/tiredofit]
+- [Dave Conroy](dave at tiredofit dot ca)[https://github.com/tiredofit]
 
 # Authors
 
