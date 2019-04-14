@@ -13,7 +13,7 @@ Dockerfile to build an [alpine](https://www.alpinelinux.org/) container image.
 
 # Original Authors
 
-- [Dave Conroy](dave at tiredofit dot ca)[https://github.com/tiredofit]
+- [Dave Conroy(dave at tiredofit dot ca)](https://github.com/tiredofit)
 
 # Authors
 
@@ -53,14 +53,8 @@ docker pull tiredofit/alpine:(imagetag)
 
 The following image tags are available:
 
-* `3.3` - Alpine 3.3
-* `3.4` - Alpine 3.4
-* `3.5` - Alpine 3.5
-* `3.6` - Alpine 3.6
-* `3.7` - Alpine 3.7
 * `3.8` - Alpine 3.8
 * `3.9` - Alpine 3.9
-* `edge` - Alpine edge
 * `latest` - Alpine 3.9
 
 # Quick Start
