@@ -1,5 +1,3 @@
-# hub.docker.com/openemail/alpine
-
 # Introduction
 
 Dockerfile to build an [alpine](https://www.alpinelinux.org/) container image.
@@ -11,11 +9,7 @@ Dockerfile to build an [alpine](https://www.alpinelinux.org/) container image.
 * MSMTP enabled to send mail from container to external SMTP server.
 * Ability to update User ID and Group ID Permissions for Development Purposes dyanmically.
 
-# Original Authors
-
-- [Dave Conroy(dave at tiredofit dot ca)](https://github.com/tiredofit)
-
-# Authors
+# Maintainers
 
 - [Chinthaka Deshapriya](https://www.linkedin.com/in/chinthakadeshapriya/)
 
@@ -166,6 +160,9 @@ For debugging and maintenance purposes you may want access the containers shell.
 ```bash
 docker exec -it (whatever your container name is e.g. alpine) bash
 ```
+# Original Authors
+
+- [Dave Conroy(dave at tiredofit dot ca)](https://github.com/tiredofit)
 
 # References
 
