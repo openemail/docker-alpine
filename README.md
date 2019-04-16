@@ -15,7 +15,7 @@ Dockerfile to build an [alpine](https://www.alpinelinux.org/) container image.
 
 # Contributors
  
- - [Amila Kothalawala](https://www.linkedin.com/in/amila-m-kothalawala-87357152/)
+ - [Amila Kothalawala](https://www.linkedin.com/in/amila-m-kothalawala/)
 
 # Table of Contents
 
@@ -37,18 +37,16 @@ No prequisites required
 
 # Installation
 
-Automated builds of the image are available on [Docker Hub](https://hub.docker.com/r/tiredofit/alpine) and 
+Automated builds of the image are available on [Docker Hub](https://hub.docker.com/r/openemail/alpine) and 
 is the recommended method of installation.
 
 
 ```bash
-docker pull tiredofit/alpine:(imagetag)
+docker pull openemail/alpine:(imagetag)
 ```
 
 The following image tags are available:
 
-* `3.8` - Alpine 3.8
-* `3.9` - Alpine 3.9
 * `latest` - Alpine 3.9
 
 # Quick Start
@@ -80,20 +78,20 @@ Below is the complete list of available options that can be used to customize yo
 | `ENABLE_CRON`     | Enable Cron - Default: `TRUE`                                   |
 | `ENABLE_SMTP`     | Enable SMTP services - Default: `TRUE`						|
 | `ENABLE_ZABBIX`   | Enable Zabbix Agent - Default: `TRUE`                           |
-| `TIMEZONE`        | Set Timezone - Default: `America/Vancouver`                     |
+| `TIMEZONE`        | Set Timezone - Default: `Asia/Colombo`                     |
 
 If you wish to have this send mail, set `ENABLE_SMTP=TRUE` and configure the following environment variables. See the [MSMTP Configuration Options](http://msmtp.sourceforge.net/doc/msmtp.html) for further information on options to configure MSMTP
 
 | Parameter         | Description                                                    |
 |-------------------|----------------------------------------------------------------|
 | `ENABLE_SMTP_GMAIL` | Add setting to supoprt sending through Gmail SMTP - Default: `FALSE` |
-| `SMTP_HOST`      | Hostname of SMTP Server - Default: `postfix-relay`                            |
+| `SMTP_HOST`      | Hostname of SMTP Server - Default: `postfix-openemail`                            |
 | `SMTP_PORT`      | Port of SMTP Server - Default: `25`                            |
 | `SMTP_DOMAIN`     | HELO Domain - Default: `docker`                                   |
-| `SMTP_MAILDOMAIN`     | Mail Domain From - Default: `example.org`						|
+| `SMTP_MAILDOMAIN`     | Mail Domain From - Default: `openemail.io`						|
 | `SMTP_AUTHENTICATION`     | SMTP Authentication - Default: `none`                                   |
 | `SMTP_USER`     | Enable SMTP services - Default: `user`						|
-| `SMTP_PASS`   | Enable Zabbix Agent - Default: `password`                           |
+| `SMTP_PASS`   | Enable SMTP services - Default: `password`                           |
 | `SMTP_TLS`        | Use TLS - Default: `off`                     |
 | `SMTP_STARTTLS`   | Start TLS from within Dession - Default: `off` |
 | `SMTP_TLSCERTCHECK` | Check remote certificate - Default: `off` |
@@ -111,7 +109,7 @@ See The [Official Zabbix Agent Documentation](https://www.zabbix.com/documentati
 | `ZABBIX_LISTEN_PORT` | Zabbix Agent Listening Port - Default: `10050` |
 | `ZABBIX_LISTEN_IP` | Zabbix Agent Listening IP - Default: `0.0.0.0` |
 | `ZABBIX_START_AGENTS` | How many Zabbix Agents to Start - Default: `3 | 
-| `ZABBIX_SERVER_ACTIVE` | Server for Active Checks - Default: `zabbix-proxy` |
+| `ZABBIX_SERVER_ACTIVE` | Server for Active Checks - Default: `zabbix-openemail` |
 | `ZABBIX_HOSTNAME` | Container hostname to report to server - Default: `docker` |
 | `ZABBIX_REFRESH_ACTIVE_CHECKS` | Seconds to refresh Active Checks - Default: `120` |
 | `ZABBIX_BUFFER_SEND` | Buffer Send - Default: `5` |
