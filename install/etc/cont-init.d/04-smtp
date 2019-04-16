@@ -17,7 +17,7 @@ if [ "$DEBUG_SMTP" = "TRUE" ] || [ "$DEBUG_SMTP" = "true" ] || [ "$DEBUG_MODE" =
     ENABLE_SMTP=FALSE
 
           case "SMTP_HOST" in
-              "postfix-relay")
+              "postfix-openemail")
               SMTP_HOST=localhost
               ;;
               "mailcatcher")
