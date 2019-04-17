@@ -12,7 +12,7 @@ ENV DEBUG_MODE=FALSE \
 ARG S6_OVERLAY_VERSION=v1.21.7.0 
 
 RUN set -x && \
-
+    \
 ### Install MailHog
     apk add -t .mailhog-build-dependencies \
             go \
